@@ -1,14 +1,14 @@
 # Documentation Problems
 
-Generated: 2026-10-28 01:22:10
+Generated: 2026-10-28 01:26:02
 
 ## Summary
 
 |Type|Count|
 |---|---:|
-|Errors|472|
-|Warnings|8072|
-|**Total**|**8549**|
+|Errors|470|
+|Warnings|8081|
+|**Total**|**8556**|
 
 ---
 
@@ -12856,15 +12856,50 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 # docs_ENG/NETWORK_ENG.md
 
-## Error
+## Warning
 
 - **Module :** markdown
-- **Message :** Fichier vide.
+- **Message :** Ligne 66 > 120 caractères.
 
-## Error
+## Warning
 
-- **Module :** titles
-- **Message :** docs_ENG/NETWORK_ENG.md: contient 0 titres H1 (1 attendu).
+- **Module :** markdown
+- **Message :** Ligne 77 > 120 caractères.
+
+## Warning
+
+- **Module :** markdown
+- **Message :** Ligne 80 > 120 caractères.
+
+## Warning
+
+- **Module :** markdown
+- **Message :** Ligne 81 > 120 caractères.
+
+## Warning
+
+- **Module :** markdown
+- **Message :** Ligne 82 > 120 caractères.
+
+## Warning
+
+- **Module :** markdown
+- **Message :** Ligne 83 > 120 caractères.
+
+## Warning
+
+- **Module :** markdown
+- **Message :** Ligne 84 > 120 caractères.
+
+## Warning
+
+- **Module :** markdown
+- **Message :** Ligne 251 > 120 caractères.
+
+## Warning
+
+- **Module :** markdown
+- **Message :** Ligne 253 > 120 caractères.
 
 ---
 
@@ -18988,27 +19023,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## Warning
 
 - **Module :** markdown
-- **Message :** Ligne 44 > 120 caractères.
+- **Message :** Ligne 39 > 120 caractères.
 
 ## Warning
 
 - **Module :** markdown
-- **Message :** Ligne 73 > 120 caractères.
+- **Message :** Ligne 63 > 120 caractères.
 
 ## Warning
 
 - **Module :** markdown
-- **Message :** Ligne 74 > 120 caractères.
+- **Message :** Ligne 64 > 120 caractères.
 
 ## Warning
 
 - **Module :** markdown
-- **Message :** Ligne 78 > 120 caractères.
+- **Message :** Ligne 68 > 120 caractères.
 
 ## Warning
 
 - **Module :** markdown
-- **Message :** Ligne 84 > 120 caractères.
+- **Message :** Ligne 72 > 120 caractères.
 
 ---
 

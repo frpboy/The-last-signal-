@@ -1,5 +1,5 @@
 {
-    "generated": "2026-10-28T01:22:09.438830",
+    "generated": "2026-10-28T01:26:01.056097",
     "score": 64,
     "status": "Bon",
     "scores": {
@@ -11,7 +11,7 @@
         "rust": 0,
         "organization": 95
     },
-    "problem_count": 8549,
+    "problem_count": 8556,
     "details": {
         "markdown": {
             "score": 45,
@@ -35,12 +35,6 @@
                 },
                 {
                     "file": "docs_ENG/DATABASE_ENG.md",
-                    "severity": "error",
-                    "message": "Fichier vide.",
-                    "module": "markdown"
-                },
-                {
-                    "file": "docs_ENG/NETWORK_ENG.md",
                     "severity": "error",
                     "message": "Fichier vide.",
                     "module": "markdown"
@@ -1264,6 +1258,60 @@
                     "module": "markdown"
                 },
                 {
+                    "file": "docs_ENG/NETWORK_ENG.md",
+                    "severity": "warning",
+                    "message": "Ligne 66 > 120 caractères.",
+                    "module": "markdown"
+                },
+                {
+                    "file": "docs_ENG/NETWORK_ENG.md",
+                    "severity": "warning",
+                    "message": "Ligne 77 > 120 caractères.",
+                    "module": "markdown"
+                },
+                {
+                    "file": "docs_ENG/NETWORK_ENG.md",
+                    "severity": "warning",
+                    "message": "Ligne 80 > 120 caractères.",
+                    "module": "markdown"
+                },
+                {
+                    "file": "docs_ENG/NETWORK_ENG.md",
+                    "severity": "warning",
+                    "message": "Ligne 81 > 120 caractères.",
+                    "module": "markdown"
+                },
+                {
+                    "file": "docs_ENG/NETWORK_ENG.md",
+                    "severity": "warning",
+                    "message": "Ligne 82 > 120 caractères.",
+                    "module": "markdown"
+                },
+                {
+                    "file": "docs_ENG/NETWORK_ENG.md",
+                    "severity": "warning",
+                    "message": "Ligne 83 > 120 caractères.",
+                    "module": "markdown"
+                },
+                {
+                    "file": "docs_ENG/NETWORK_ENG.md",
+                    "severity": "warning",
+                    "message": "Ligne 84 > 120 caractères.",
+                    "module": "markdown"
+                },
+                {
+                    "file": "docs_ENG/NETWORK_ENG.md",
+                    "severity": "warning",
+                    "message": "Ligne 251 > 120 caractères.",
+                    "module": "markdown"
+                },
+                {
+                    "file": "docs_ENG/NETWORK_ENG.md",
+                    "severity": "warning",
+                    "message": "Ligne 253 > 120 caractères.",
+                    "module": "markdown"
+                },
+                {
                     "file": "docs_ENG/ROADMAP_ENG.md",
                     "severity": "warning",
                     "message": "Ligne 11 > 120 caractères.",
@@ -1476,31 +1524,31 @@
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 44 > 120 caractères.",
+                    "message": "Ligne 39 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 73 > 120 caractères.",
+                    "message": "Ligne 63 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 74 > 120 caractères.",
+                    "message": "Ligne 64 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 78 > 120 caractères.",
+                    "message": "Ligne 68 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 84 > 120 caractères.",
+                    "message": "Ligne 72 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
@@ -6879,12 +6927,6 @@
                     "file": "docs_ENG/DATABASE_ENG.md",
                     "severity": "error",
                     "message": "docs_ENG/DATABASE_ENG.md: contient 0 titres H1 (1 attendu).",
-                    "module": "titles"
-                },
-                {
-                    "file": "docs_ENG/NETWORK_ENG.md",
-                    "severity": "error",
-                    "message": "docs_ENG/NETWORK_ENG.md: contient 0 titres H1 (1 attendu).",
                     "module": "titles"
                 },
                 {
