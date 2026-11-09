@@ -1,5 +1,5 @@
 {
-    "generated": "2026-11-09T01:36:08.179017",
+    "generated": "2026-11-09T06:07:31.881730",
     "score": 64,
     "status": "Bon",
     "scores": {
@@ -11,7 +11,7 @@
         "rust": 0,
         "organization": 95
     },
-    "problem_count": 8556,
+    "problem_count": 8559,
     "details": {
         "markdown": {
             "score": 45,
@@ -1176,7 +1176,13 @@
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 44 > 120 caractères.",
+                    "message": "Ligne 45 > 120 caractères.",
+                    "module": "markdown"
+                },
+                {
+                    "file": "lychee/out.md",
+                    "severity": "warning",
+                    "message": "Ligne 46 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
@@ -1188,7 +1194,7 @@
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 74 > 120 caractères.",
+                    "message": "Ligne 77 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
@@ -1200,7 +1206,19 @@
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 84 > 120 caractères.",
+                    "message": "Ligne 82 > 120 caractères.",
+                    "module": "markdown"
+                },
+                {
+                    "file": "lychee/out.md",
+                    "severity": "warning",
+                    "message": "Ligne 86 > 120 caractères.",
+                    "module": "markdown"
+                },
+                {
+                    "file": "lychee/out.md",
+                    "severity": "warning",
+                    "message": "Ligne 92 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
