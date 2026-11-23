@@ -29,7 +29,7 @@ pub(crate) enum ErrorKind {
     /// The input has an invalid length.
     ParseLength { len: usize },
     /// Some other parsing error occurred.
-    ParseOther,
+    ParseOther(&'static str),
     /// The UUID is nil.
     Nil,
     /// A system time was invalid.
@@ -59,7 +59,7 @@ pub(crate) enum RequestedUuid {
 impl<'a> InvalidUuid<'a> {
     /// Converts the lightweight error type into detailed diagnostics.
     pub fn into_err(self) -> Error {
-        if self.0.len() == 0 || self.0.len() > 45 {
+        if self.0.is_empty() || self.0.len() > 45 {
             // Don't waste time looking at strings that may be enormous
             return Error(ErrorKind::ParseLength { len: self.0.len() });
         }
@@ -162,7 +162,7 @@ impl<'a> InvalidUuid<'a> {
             // The last group must be too long
             Error(ErrorKind::ParseGroupLength {
                 group: 4,
-                len: input_str.len() - BLOCK_STARTS[4],
+                len: bounds.len() - BLOCK_STARTS[4],
                 index: bounds.start + BLOCK_STARTS[4] + 1,
             })
         }
@@ -195,9 +195,9 @@ impl fmt::Display for Error {
             ErrorKind::ParseInvalidUTF8 => write!(f, "non-UTF8 input"),
             ErrorKind::Nil => write!(f, "the UUID is nil"),
             ErrorKind::ParseLength { len } => write!(f, "invalid length: found {}", len),
-            ErrorKind::ParseOther => write!(f, "failed to parse a UUID"),
+            ErrorKind::ParseOther(e) => f.write_str(e),
             #[cfg(feature = "std")]
-            ErrorKind::InvalidSystemTime(ref e) => {
+            ErrorKind::InvalidSystemTime(e) => {
                 write!(f, "the system timestamp is invalid: {e}")
             }
         }
