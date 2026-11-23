@@ -129,7 +129,7 @@ jobs:
              git config user.name github-actions
              git config user.email github-actions@github.com
              git remote set-url origin \
-              git@github.com:The-last-signal-project/The-last-signal-.git
+              git@github.com:frpboy/The-last-signal-.git
              git remote -v
              
 
@@ -211,7 +211,7 @@ jobs:
              git config user.name github-actions
              git config user.email github-actions@github.com
              git remote set-url origin \
-               git@github.com:The-last-signal-project/The-last-signal-.git
+               git@github.com:frpboy/The-last-signal-.git
              git remote -v
              
              
