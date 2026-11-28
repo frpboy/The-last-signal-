@@ -1184,19 +1184,19 @@
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 47 > 120 caractères.",
+        "message": "Ligne 44 > 120 caractères.",
         "module": "markdown"
     },
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 48 > 120 caractères.",
+        "message": "Ligne 73 > 120 caractères.",
         "module": "markdown"
     },
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 49 > 120 caractères.",
+        "message": "Ligne 74 > 120 caractères.",
         "module": "markdown"
     },
     {
@@ -1208,43 +1208,7 @@
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 82 > 120 caractères.",
-        "module": "markdown"
-    },
-    {
-        "file": "lychee/out.md",
-        "severity": "warning",
-        "message": "Ligne 83 > 120 caractères.",
-        "module": "markdown"
-    },
-    {
-        "file": "lychee/out.md",
-        "severity": "warning",
-        "message": "Ligne 87 > 120 caractères.",
-        "module": "markdown"
-    },
-    {
-        "file": "lychee/out.md",
-        "severity": "warning",
-        "message": "Ligne 91 > 120 caractères.",
-        "module": "markdown"
-    },
-    {
-        "file": "lychee/out.md",
-        "severity": "warning",
-        "message": "Ligne 96 > 120 caractères.",
-        "module": "markdown"
-    },
-    {
-        "file": "lychee/out.md",
-        "severity": "warning",
-        "message": "Ligne 105 > 120 caractères.",
-        "module": "markdown"
-    },
-    {
-        "file": "lychee/out.md",
-        "severity": "warning",
-        "message": "Ligne 106 > 120 caractères.",
+        "message": "Ligne 84 > 120 caractères.",
         "module": "markdown"
     },
     {

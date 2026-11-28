@@ -1,14 +1,14 @@
 # Documentation Problems
 
-Generated: 2026-11-27 18:23:23
+Generated: 2026-11-28 02:02:08
 
 ## Summary
 
 |Type|Count|
 |---|---:|
 |Errors|469|
-|Warnings|7886|
-|**Total**|**8360**|
+|Warnings|7880|
+|**Total**|**8354**|
 
 ---
 
@@ -19023,17 +19023,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## Warning
 
 - **Module :** markdown
-- **Message :** Ligne 47 > 120 caractères.
+- **Message :** Ligne 44 > 120 caractères.
 
 ## Warning
 
 - **Module :** markdown
-- **Message :** Ligne 48 > 120 caractères.
+- **Message :** Ligne 73 > 120 caractères.
 
 ## Warning
 
 - **Module :** markdown
-- **Message :** Ligne 49 > 120 caractères.
+- **Message :** Ligne 74 > 120 caractères.
 
 ## Warning
 
@@ -19043,37 +19043,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## Warning
 
 - **Module :** markdown
-- **Message :** Ligne 82 > 120 caractères.
-
-## Warning
-
-- **Module :** markdown
-- **Message :** Ligne 83 > 120 caractères.
-
-## Warning
-
-- **Module :** markdown
-- **Message :** Ligne 87 > 120 caractères.
-
-## Warning
-
-- **Module :** markdown
-- **Message :** Ligne 91 > 120 caractères.
-
-## Warning
-
-- **Module :** markdown
-- **Message :** Ligne 96 > 120 caractères.
-
-## Warning
-
-- **Module :** markdown
-- **Message :** Ligne 105 > 120 caractères.
-
-## Warning
-
-- **Module :** markdown
-- **Message :** Ligne 106 > 120 caractères.
+- **Message :** Ligne 84 > 120 caractères.
 
 ---
 
